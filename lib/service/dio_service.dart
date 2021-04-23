@@ -1,14 +1,13 @@
 import 'dart:io';
 
-import 'package:dio/dio.dart';
-
 import '../model/category_model.dart';
 import '../model/product_model.dart';
+import 'i_dio_service.dart';
 
-class DioService {
-  //NOTE: I AM USING PYHSICAL DEVICE FOR DEBUG SO I USE NGROK FOR CONNECT LOCALHOST
-  Future getProducts() async {
-    final _response = await Dio().get('https://06dd4a402fca.ngrok.io/products');
+class DioService extends IDioService {
+  @override
+  Future<List<dynamic>> getProducts() async {
+    final _response = await dio.get('http://localhost:3000/products');
     if (_response.statusCode == HttpStatus.ok) {
       final _products = _response.data;
       return _products.map((product) => Products.fromJson(product)).toList();
@@ -17,10 +16,9 @@ class DioService {
     }
   }
 
-  //NOTE: I AM USING PYHSICAL DEVICE FOR DEBUG SO I USE NGROK FOR CONNECT LOCALHOST
+  @override
   Future<List<dynamic>> getCategories() async {
-    final response =
-        await Dio().get('https://06dd4a402fca.ngrok.io/categories');
+    final response = await dio.get('http://localhost:3000/categories');
     if (response.statusCode == HttpStatus.ok) {
       final categories = response.data;
       return categories
@@ -31,10 +29,10 @@ class DioService {
     }
   }
 
-  //NOTE: I AM USING PYHSICAL DEVICE FOR DEBUG SO I USE NGROK FOR CONNECT LOCALHOST
-  Future getProductByCategoryId(int categoryId) async {
-    final _response = await Dio()
-        .get('https://06dd4a402fca.ngrok.io/products?categoryID=$categoryId');
+  @override
+  Future<List<dynamic>> getProductByCategoryId(int categoryId) async {
+    final _response =
+        await dio.get('http://localhost:3000/products?categoryID=$categoryId');
     if (_response.statusCode == HttpStatus.ok) {
       final _products = _response.data;
       return _products.map((product) => Products.fromJson(product)).toList();
