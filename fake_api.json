@@ -1,0 +1,134 @@
+{
+  "products": [
+    {
+      "productID": 1,
+      "categoryID": 2,
+      "unitPrice": 150,
+      "unitsInStock": 32,
+      "name": "Bilgisayar Masası",
+      "imageUrl": "https://productimages.hepsiburada.net/s/21/280-413/9937409310770.jpg",
+      "vote_average": 2.5
+    },
+    {
+      "productID": 2,
+      "categoryID": 2,
+      "unitPrice": 80,
+      "unitsInStock": 16,
+      "name": "Çalışma Masası",
+      "imageUrl": "https://productimages.hepsiburada.net/s/73/600-888/110000014898450.jpg",
+      "vote_average": 4
+    },
+    {
+      "productID": 3,
+      "categoryID": 1,
+      "unitPrice": 20,
+      "unitsInStock": 80,
+      "name": "Ofis Koltuğu",
+      "imageUrl": "https://productimages.hepsiburada.net/s/49/600-888/10990437072946.jpg",
+      "vote_average": 5
+    },
+    {
+      "productID": 4,
+      "categoryID": 3,
+      "unitPrice": 40,
+      "unitsInStock": 80,
+      "name": "Tekli Koltuk",
+      "imageUrl": "https://productimages.hepsiburada.net/s/48/280-413/10940663103538.jpg",
+      "vote_average": 2
+    },
+    {
+      "productID": 5,
+      "categoryID": 3,
+      "unitPrice": 60,
+      "unitsInStock": 70,
+      "name": "Üçlü Koltuk",
+      "imageUrl": "https://productimages.hepsiburada.net/s/23/600-888/10056989704242.jpg",
+      "vote_average": 4
+    },
+    {
+      "productID": 6,
+      "categoryID": 3,
+      "unitPrice": 40,
+      "unitsInStock": 10,
+      "name": "Sallanan Koltuk",
+      "imageUrl": "https://productimages.hepsiburada.net/s/7/400-592/9767489929266.jpg",
+      "vote_average": 4.7
+    },
+    {
+      "productID": 7,
+      "categoryID": 4,
+      "unitPrice": 20,
+      "unitsInStock": 40,
+      "name": "Orta Sehpa",
+      "imageUrl": "https://productimages.hepsiburada.net/s/55/600-888/11220308492338.jpg",
+      "vote_average": 1
+    },
+    {
+      "productID": 8,
+      "categoryID": 4,
+      "unitPrice": 20,
+      "unitsInStock": 40,
+      "name": "Zigon Sehpa",
+      "imageUrl": "https://productimages.hepsiburada.net/s/32/600-888/10358498263090.jpg",
+      "vote_average": 2
+    },
+    {
+      "productID": 9,
+      "categoryID": 5,
+      "unitPrice": 80,
+      "unitsInStock": 100,
+      "name": "Abajur",
+      "imageUrl": "https://productimages.hepsiburada.net/s/4/400-592/9655455219762.jpg",
+      "vote_average": 2.7
+    },
+    {
+      "productID": 10,
+      "categoryID": 5,
+      "unitPrice": 20,
+      "unitsInStock": 100,
+      "name": "Sarkıt Lamba",
+      "imageUrl": "https://productimages.hepsiburada.net/s/22/400-592/9947620180018.jpg",
+      "vote_average": 3.4
+    },
+    {
+      "productID": 11,
+      "categoryID": 5,
+      "unitPrice": 30,
+      "unitsInStock": 40,
+      "name": "Masa Lambası",
+      "imageUrl": "https://productimages.hepsiburada.net/s/26/600-888/10159846326322.jpg",
+      "vote_average": 4.2
+    },
+    {
+      "productID": 12,
+      "categoryID": 5,
+      "unitPrice": 30,
+      "unitsInStock": 40,
+      "name": "Gece Lambası",
+      "imageUrl": "https://productimages.hepsiburada.net/s/34/400-592/10429867262002.jpg",
+      "vote_average":5
+    }
+  ],
+  "categories": [
+    {
+      "categoryID": 1,
+      "name": "Sandalye"
+    },
+    {
+      "categoryID": 2,
+      "name": "Masa"
+    },
+    {
+      "categoryID": 3,
+      "name": "Koltuk"
+    },
+    {
+      "categoryID": 4,
+      "name": "Sehpa"
+    },
+    {
+      "categoryID": 5,
+      "name": "Lamba"
+    }
+  ]
+}
