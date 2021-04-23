@@ -1,6 +1,6 @@
 # coding_challeng
 
-A new Flutter project.
+Flutter Project for ACM Hacettepe Coding Challenge. If you want to use app, you have to use [fake_api](https://github.com/Apooness/acm_hacettepe_coding_challenge/blob/main/fake_api.json) because I designed this app for it. If you don't know how to publish it your localhost, you can use [json_server](https://github.com/typicode/json-server) (it has detailed documentation). You don't want to read documentation just run "json-server --watch fake_api.json" on your powershell. 
 
 ## Getting Started
 
