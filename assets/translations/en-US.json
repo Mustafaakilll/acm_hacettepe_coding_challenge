@@ -1,0 +1,19 @@
+{
+  "navBar": {
+    "home": "Home",
+    "favorite": "Favorites",
+    "cart": "Cart"
+  },
+  "cart": {
+    "totalResult":"Total",
+    "submit": "Submit"
+  },
+  "home": {
+    "title": "Products",
+    "addCart": "Add To Cart",
+    "addedCart": "Added To Cart"
+  },
+  "favorite": {
+    "emptyList": "Your Favorite List is Empty"
+  }
+}

@@ -1,0 +1,32 @@
+name: coding_challeng
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio:
+  provider:
+  cached_network_image: ^3.0.0
+  flutrlint: ^2.0.0+1
+  cupertino_icons: ^1.0.2
+  easy_localization: ^3.0.0
+  json_annotation: 3.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  json_serializable: 3.5.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translations/
+

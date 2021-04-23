@@ -1,0 +1,19 @@
+{
+  "navBar": {
+    "home": "Ürünler",
+    "favorite": "Favoriler",
+    "cart": "Sepet"
+  },
+  "cart": {
+    "totalResult":"Toplam Tutar",
+    "submit": "Onayla"
+  },
+  "home": {
+    "title": "Ürünler",
+    "addCart": "Sepete Ekle",
+    "addedCart": "Sepete Eklendi"
+  },
+  "favorite": {
+    "emptyList": "Favoriler Listeniz Boş"
+  }
+}
